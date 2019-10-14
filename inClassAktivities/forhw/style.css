@@ -1,0 +1,149 @@
+body {
+    background-color: #f7f7f7;
+    font-family: "Montserrat", "sans-serif";
+	color: #9a9a9a;
+}
+
+/* Header */
+
+.nav {
+    display: block;
+    margin: 22px auto auto 16px;
+    margin-top: 22px;
+    height: 44px;
+    right: 7px;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    z-index: 199;
+
+}
+ul {
+	list-style-type: none;
+	align-items: center;
+	justify-content: end;
+	margin: 20px;
+}
+
+li { 
+	float: right;
+    margin-left: 20px;
+    font-size: 100%;
+ }
+
+#privacy:hover, #privacy:focus {
+
+    color: #6d6d6d;
+
+}
+#privacy {
+
+    cursor: pointer;
+    font-size: 12px;
+    margin:3px 0 0 20px;
+
+}
+#menu {
+    background-image: url("../IMG/Menu.png");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    margin-top: -10px;
+    width: 40px;
+    height: 40px;
+    background-color: aqua;
+}
+
+#menu:hover {
+	background-image: url("../IMG/Menu_hover.png");
+	border-radius: 3px;
+}
+
+#twitter {
+    background-image: url("../IMG/Tweeter.png");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    margin-top: -10px;
+    width: 40px;
+    height: 40px;
+    background-color: aqua;
+}
+
+#twitter:hover {
+	background-image: url("../IMG/Tweeter_hover.png");
+	border-radius: 3px;
+} 
+
+element {
+
+}
+a:hover {
+
+    text-decoration: underline;
+
+}
+a:hover, a:focus {
+
+    color: #00278e;
+
+}
+.logo_homepage {
+
+    width: 205px;
+    height: 200px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    background-image: url("assets/logo_homepage.normal.v108.svg");
+
+}
+.logo_homepage, .header__logo, .logo--dax {
+
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: transparent;
+    text-indent: -9999px;
+    font-size: 0px;
+
+}
+a {
+
+    font-family: inherit;
+    text-decoration: none;
+    color: #4495d4;
+
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+        font-size: inherit;
+        font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+
+}
+body, input, select, textarea {
+
+    font-family: "DDG_ProximaNova","DDG_ProximaNova_UI_0","DDG_ProximaNova_UI_1","DDG_ProximaNova_UI_2","DDG_ProximaNova_UI_3","DDG_ProximaNova_UI_4","DDG_ProximaNova_UI_5","DDG_ProximaNova_UI_6","Proxima Nova","Helvetica Neue","Helvetica","Segoe UI","Nimbus Sans L","Liberation Sans","Open Sans",FreeSans,Arial,sans-serif;
+    color: #222;
+
+}
+body {
+
+    line-height: 1.6;
+
+}
+html {
+
+    font-size: 90%;
+    -webkit-text-size-adjust: 100%;
+
+}
+html {
+
+    line-height: 1;
+
+}
